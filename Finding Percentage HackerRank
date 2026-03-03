@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    n = int(input())
+    smarks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        smarks[name] = scores
+    query=input()
+    marks = smarks[query]
+    average = sum(marks) / len(marks)
+    print("{:.2f}".format(average))
