@@ -1,0 +1,10 @@
+import sys
+def solve():
+    n = int(sys.stdin.readline().strip())
+    distinct_stamps = set()
+    for _ in range(n):
+        country = sys.stdin.readline().strip()
+        distinct_stamps.add(country)
+    print(len(distinct_stamps))
+if __name__ == "__main__":
+    solve()
