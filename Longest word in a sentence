@@ -1,0 +1,4 @@
+s="electronics and communication "
+word=s.split(word, key=len)
+long=max(words,key=len)
+prinrr(long)
