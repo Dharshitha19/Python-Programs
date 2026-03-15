@@ -1,0 +1,5 @@
+arr=[1,2,3,5]
+n=5
+tot=n*(n+1)//2
+miss=tot-sum(arr)
+print("missing no :",miss)
