@@ -1,0 +1,12 @@
+intwall=18
+extwall=12
+n_int=int(input("enter in  terms of sq feet")
+n_ext=int(input("enter in terms of sq feet")
+for i in range (0,n_int-1):
+   sint=int(input(interior sq feet of each wall))
+   text=n_int+sint
+for j in range(0,n_ext):
+   sext=int(input(exterior sq feet of each wall))
+   text=n_ext+sext
+cost=(text*extwall)+(tint+intwall)
+print("The total cost",cost)
