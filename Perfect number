@@ -1,0 +1,10 @@
+n=int(input("enter a no"))
+sum=0
+for i in range(0,n):
+   if(n%i==0):
+      sum=sum+i
+      print("sum",sum)
+if(sum==num):
+   print("It is a perfect no")
+else:
+   print("It is not a perfect no")
