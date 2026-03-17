@@ -1,0 +1,11 @@
+patients=[12,35,23,66,87]
+ts1,ts2,ts3=0
+for i in patients(0,len(patients)):
+   if(i<17):
+      ts1+=200
+   elif(i>17 and i<40):
+      ts2+=300
+   else:
+      ts3+=400
+total=ts1+ts2+ts3
+print("The total income in a day")
