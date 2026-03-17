@@ -1,0 +1,7 @@
+n=5
+ascii=65
+for i in range(n+1):
+   alpha=chr(ascii)
+   print(alpha,end=" ")
+ascii=ascii+1
+print()
