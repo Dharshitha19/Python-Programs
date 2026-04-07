@@ -1,0 +1,5 @@
+neng=int(input())
+n_space=set(map(int,input().split()))
+bfrench=int(input())
+b_space=set(map(int,input().split()))
+print(len(n_space & b_space))
