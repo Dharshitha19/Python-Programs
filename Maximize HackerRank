@@ -1,0 +1,12 @@
+import itertools
+K,M = map(int, input().split())
+lists = []
+for _ in range(K):
+    parts = list(map(int, input().split()))
+    lists.append(parts[1:])
+max_val = 0
+for combination in itertools.product(*lists):
+    result = sum(x**2 for x in combination) % M
+    if result > max_val:
+        max_val = result
+print(max_val)
