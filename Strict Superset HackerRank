@@ -1,0 +1,8 @@
+a=set(input().split())
+n=int(input())
+result=True
+for i in range(n):
+    other=set(input().split())
+    if not (a>other):
+        result=False
+print(result)
