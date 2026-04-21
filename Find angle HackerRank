@@ -1,0 +1,5 @@
+import math
+ab=int(input())
+bc=int(input())
+theta_deg=math.degrees(math.atan2(ab, bc))
+print(f"{round(theta_deg)}{chr(176)}")
